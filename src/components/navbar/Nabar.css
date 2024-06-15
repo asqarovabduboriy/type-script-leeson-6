@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #aaaaaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    display: flex;  
+    gap: 30px;
+    align-items: center;
+}
+
+ul li {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #aaaaaa;
+    font-family:'lexsend';
+    
+}
+
+.cart_like{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    /* margin-left: 50px; */
+}
+
+.cart_like svg{
+    cursor: pointer;
+    color: #14d541;
+    font-size: 20px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons svg{
+    font-size: 20px;
+    color:#aaaaaa;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+ border-radius:20px;
+ outline:none;
+ padding: 10px 25px;
+ border: 1px solid #aaaaaa;
+}
+
+.search button{
+    margin-left: -70px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    padding: 9px 15px;
+    background-color: #14d541;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    font-family:'lexsend';
+    cursor: pointer;
+}
