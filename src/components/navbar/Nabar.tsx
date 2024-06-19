@@ -13,10 +13,10 @@ const Nabar: React.FC = () => {
                     <img  src={logo} alt=""  />
             </div>
             <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li>ALL PRODUCTS</li>
+                <li>ABOUT SEEDRA</li>
+                <li>OUR BLOG</li>
+                <li>CONTACTS</li>
             </ul>
             <div className='icons'>
                <FaInstagram/>

@@ -1,0 +1,53 @@
+.img_user img{
+    border-radius: 50%;
+    width:255px;
+    height: 255px;
+    object-fit: contain;
+}
+.img_user{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+
+.users_wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 32px;
+}
+
+.text_user h2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    font-family:'Lexend';
+    color: #000000;
+    text-align: center;
+}
+
+.text_user p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family:'Lexend';
+    color: #000000;
+    text-align: center;
+}
+
+.line{
+    width: 100%;
+   border-bottom: 1px solid #2e2e2e;
+    margin: 15px 0px;
+}
+
+.icons_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons_footer svg{
+    color: #11c11c;
+    margin-left: 10px;
+}
+

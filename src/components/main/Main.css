@@ -1,0 +1,40 @@
+.text_main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text_main h2{
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 600;
+    font-family: 'Lexend';
+    color: #000000;
+    width:521px;
+}
+
+.text_main p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    font-family: 'Lexend';
+    color: #000000;
+    width:521px;
+}
+
+.flex_div{
+    display: flex;
+    gap: 80px;
+    margin-top: 57px;
+    justify-content: center;
+    
+}
+
+.img_wrapper{
+    position: relative;
+}
+.img_one{
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
