@@ -1,10 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Nabar.css'
 import logo from '../../assets/imgs/Frame.svg'
 import { FaFacebook, FaInstagram, FaShoppingCart } from 'react-icons/fa'
 import { CiHeart } from 'react-icons/ci'
+import Contac from '../contact/Contac'
 
 const Nabar: React.FC = () => {
+  const [show, setShow] = useState(false)
   return (
     <>
        <header>
@@ -16,8 +18,14 @@ const Nabar: React.FC = () => {
                 <li>ALL PRODUCTS</li>
                 <li>ABOUT SEEDRA</li>
                 <li>OUR BLOG</li>
-                <li>CONTACTS</li>
+                <li onClick={() => setShow(p=>!p)}>CONTACTS</li>
             </ul>
+
+            {
+   
+                   show? <Contac/> : null
+
+            }
             <div className='icons'>
                <FaInstagram/>
                <FaFacebook/>
